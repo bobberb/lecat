@@ -22,8 +22,8 @@ var (
 	reachableHost = flag.String("host", "",
 		"the hostname to get a certificate for. something like "+
 			"'yourservice.yourdomain.tld'")
-	listenAddr = flag.String("addr", ":443", "the address to listen on. "+
-		"this almost certainly should be ':443'")
+	listenAddr = flag.String("addr", ":8082", "the address to listen on. "+
+		"this almost certainly should be ':8082'")
 	targetAddr = flag.String("target", "",
 		"the address to forward unencrypted connections to. "+
 			"probably something like 'localhost:8080'")
